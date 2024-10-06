@@ -10,8 +10,8 @@
 7. [License](#license)
 
 ## Introduction
-Welcome to the **Python and SQL Exercises Collection**! This repository features a comprehensive set of exercises designed to strengthen your skills in both Python programming and SQL database management. Through practical examples, users will gain experience in connecting to MySQL databases, executing SQL queries, and processing the results using Pandas.
-
+Welcome to the **Python and SQL Exercises Collection**! 
+I created this repository to enhance my own learning experience in Python programming and SQL database management. It features a comprehensive set of exercises designed to help future students strengthen their skills. Through practical examples, users will gain experience in connecting to MySQL databases, executing SQL queries, and processing the results using Pandas.
 ## Getting Started
 To get started with the exercises, follow these steps:
 
