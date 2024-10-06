@@ -19,8 +19,11 @@ To get started with the exercises, follow these steps:
    ```bash
    git clone https://github.com/yourusername/python-sql-exercises.git
    cd python-sql-exercises
+   ```
 2. Install Required Packages: Make sure you have the necessary packages installed. You can install them using pip:
- pip install mysql-connector-python pandas
+ ```
+pip install mysql-connector-python pandas
+```
 
 3. Set Up Database Connection: Update the connection parameters (host, database, user, password) in the notebook to connect to your MySQL database.
 
@@ -53,7 +56,7 @@ The exercises are structured to cover key aspects of using Python with SQL, incl
 
 ## Usage
 To execute the exercises, open the Jupyter Notebook file and run each cell sequentially. You can modify the SQL queries to explore different datasets and scenarios.
-
+```
 import mysql.connector
 import pandas as pd
 
@@ -70,7 +73,7 @@ connection = mysql.connector.connect(
 query = "SELECT * FROM EMPLEADO;"
 df_employees = pd.read_sql(query, con=connection)
 print(df_employees.head())
-
+```
 
 ### Author
 - **Name**: Rosalía González Caviedes
